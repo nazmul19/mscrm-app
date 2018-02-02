@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="ocdev.account.orgchart.Button.CustomAction" Location="Mscrm.Form.account.MainTab.Save.Controls._children" Sequence="53">
+      <CommandUIDefinition>
+        <Button Command="ocdev.account.orgchart.Command" Id="ocdev.account.orgchart.Button" LabelText="$LocLabels:ocdev.account.orgchart.Button.LabelText" Sequence="53" TemplateAlias="o1" ToolTipTitle="$LocLabels:ocdev.account.orgchart.Button.ToolTipTitle" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="ocdev.account.orgchart.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="openorgchart" Library="$webresource:ocdev_orgchartOpener.js" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="ocdev.account.orgchart.Button.LabelText">
+      <Titles>
+        <Title description="OrgChart" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ocdev.account.orgchart.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Open OrgChart" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

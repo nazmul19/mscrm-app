@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{200a6753-7736-467e-b9b8-3e9335ed6ad2}</formid>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab id="{6c2169a3-b1a1-46e8-bd79-7c0419aeac18}" name="tab_1" showlabel="false">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section id="{fbe69a6a-e294-4102-830e-43496c37055c}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{dac2774d-18c5-cdd5-6380-5e6b68e0c1e5}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Full Name" languagecode="1033" />
+                      </labels>
+                      <control id="fullname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fullname" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{c5527704-39ca-dcc4-65aa-3244b8361594}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Reports To" languagecode="1033" />
+                      </labels>
+                      <control id="ocdev_reportstoid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ocdev_reportstoid" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{c027cdee-a2e1-1290-3863-7baca80022b0}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Status" languagecode="1033" />
+                      </labels>
+                      <control id="ocdev_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="ocdev_status" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="4">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Contact Heirarchy Tile Form" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

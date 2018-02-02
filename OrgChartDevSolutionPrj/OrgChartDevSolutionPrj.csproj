@@ -34,7 +34,22 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Entities\Account\Entity.xml" />
+    <Content Include="Entities\Account\RibbonDiff.xml" />
+    <Content Include="Entities\Contact\Entity.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{200a6753-7736-467e-b9b8-3e9335ed6ad2}.xml" />
+    <Content Include="Entities\Contact\RibbonDiff.xml" />
+    <Content Include="Other\Customizations.xml" />
+    <Content Include="Other\EntityMaps.xml" />
+    <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Relationships\Contact.xml" />
+    <Content Include="Other\Solution.xml" />
+    <Content Include="WebResources\ocdev_orgchart.html" />
+    <Content Include="WebResources\ocdev_orgchart.html.data.xml" />
+    <Content Include="WebResources\ocdev_orgchartOpener.js" />
+    <Content Include="WebResources\ocdev_orgchartOpener.js.data.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
